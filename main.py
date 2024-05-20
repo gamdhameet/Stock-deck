@@ -7,6 +7,10 @@ import yfinance as yf
 from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
+from transformers import pipeline
+sentiment_pipeline = pipeline("sentiment-analysis")
+data = ["Tesla earnings tanked by 3%", "I hate you"]
+print(sentiment_pipeline(data))
 # from st_openai_embeddings_connection import OpenAIEmbeddingsConnection
 def movingaverage(interval, window_size):
     window= numpy.ones(int(window_size))/float(window_size)
@@ -92,4 +96,11 @@ st.plotly_chart(fig1)
 # st.write("Forecast components")
 # fig2 = m.plot_components(forecast)
 # st.write(fig2)
+import plotly.graph_objects as go
 
+
+fig = go.Figure(go.Bar(
+            x=[-20, -14, 23],
+            y=['giraffes', 'orangutans', 'monkeys'],
+            orientation='h'))
+st.plotly_chart(fig)
