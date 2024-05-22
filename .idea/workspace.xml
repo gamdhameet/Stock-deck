@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a52177-af4d-4546-bfa3-0c5db83334cd" name="Changes" comment="added pie analysis" />
+    <list default="true" id="b1a52177-af4d-4546-bfa3-0c5db83334cd" name="Changes" comment="added pie analysis">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +155,8 @@
       <workItem from="1716200175318" duration="2335000" />
       <workItem from="1716202824346" duration="5579000" />
       <workItem from="1716269016554" duration="9175000" />
-      <workItem from="1716368147777" duration="703000" />
+      <workItem from="1716368147777" duration="1507000" />
+      <workItem from="1716377724701" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -179,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716371500823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added pie analysis">
+      <option name="closed" value="true" />
+      <created>1716371704460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716371704460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
